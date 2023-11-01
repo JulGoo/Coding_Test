@@ -20,6 +20,5 @@ public class _2588 {
         System.out.println(four);
         System.out.println(five);
         System.out.println(three + four * 10 + five * 100);
-
     }
 }
