@@ -11,12 +11,11 @@ public class _10811 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
-        int[] arr = new int[n+1];
+        int[] arr = new int[n + 1];
         int temp = 0;
 
         for (int j = 1; j <= n; j++) {
             arr[j] = j;
-            System.out.println(j + ":" + arr[j]);
         }
 
         for (int i = 0; i < m; i++) {
@@ -24,11 +23,8 @@ public class _10811 {
             int a = Integer.parseInt(st1.nextToken());
             int b = Integer.parseInt(st1.nextToken());
 
-            while (a != b) {
+            while (a < b && a != b) {
                 temp = arr[a];
-                System.out.println("arr[a]:"+arr[a]+"/a:"+a);
-                System.out.println("arr[b]:"+arr[b]+"/b:"+b);
-                System.out.println("temp:"+temp);
                 arr[a] = arr[b];
                 arr[b] = temp;
 
@@ -38,7 +34,7 @@ public class _10811 {
         }
 
         for (int j = 1; j <= n; j++) {
-            System.out.print(arr[j]);
+            System.out.print(arr[j] + " ");
         }
     }
 }
