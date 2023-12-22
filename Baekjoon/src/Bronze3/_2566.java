@@ -20,13 +20,13 @@ public class _2566 {
                 num[i][j] = Integer.parseInt(st.nextToken());
                 if (num[i][j] > max) {
                     max = num[i][j];
-                    a = i + 1;
-                    b = j + 1;
+                    a = i;
+                    b = j;
                 }
             }
         }
 
         System.out.println(max);
-        System.out.println(a + " " + b);
+        System.out.println((a + 1) + " " + (b + 1));
     }
 }
