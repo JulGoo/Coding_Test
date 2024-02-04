@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5e7a8e5-90cf-4217-bd59-62db9962c100" name="Changes" comment="" />
+    <list default="true" id="b5e7a8e5-90cf-4217-bd59-62db9962c100" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Bronze2/_2587.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bronze2/_2587.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +82,7 @@
       <workItem from="1706415965688" duration="2725000" />
       <workItem from="1706508133699" duration="214000" />
       <workItem from="1706615375686" duration="148000" />
+      <workItem from="1707055978484" duration="342000" />
     </task>
     <servers />
   </component>
