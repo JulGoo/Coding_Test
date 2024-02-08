@@ -44,16 +44,16 @@ public class _2798 {
 
         List<Integer> sub = new ArrayList<>();
         for (int i : list) {
-            int a= m-i;
-            if (a < 0){
-                a *= -1;
+            int a = m - i;
+            if (a >= 0) {
+                sub.add(a);
+            }else {
+                sub.add(300000);
             }
-            sub.add(a);
         }
 
         int min = Collections.min(sub);
         System.out.println(list.get(sub.indexOf(min)));
-
     }
 }
 
